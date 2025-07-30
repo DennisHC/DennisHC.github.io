@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c82fa44.css",
+    "main.js": "/static/js/main.66696389.js",
+    "static/js/592.73b77d2f.chunk.js": "/static/js/592.73b77d2f.chunk.js",
+    "static/media/farmly_log_out.gif": "/static/media/farmly_log_out.dfec55ccba3463ab07c8.gif",
+    "static/media/farmly_checkout.gif": "/static/media/farmly_checkout.0cb7aa79225e2134eeb1.gif",
+    "static/media/flixster_demo_part_2.gif": "/static/media/flixster_demo_part_2.5990b1741bc2a9bacd20.gif",
+    "static/media/farmly_log_in.gif": "/static/media/farmly_log_in.2fd74273f85a1ce38916.gif",
+    "static/media/zotcalz_demo.gif": "/static/media/zotcalz_demo.adcee9704e7ac61295d1.gif",
+    "static/media/fabflix_mobile_demo_1.gif": "/static/media/fabflix_mobile_demo_1.8b9b476559c43d1299d1.gif",
+    "static/media/stockpot_walkthrough.gif": "/static/media/stockpot_walkthrough.95ed08e65a1d0fa0947c.gif",
+    "static/media/farmly_demo.gif": "/static/media/farmly_demo.ac4711201e2ff99f776a.gif",
+    "static/media/bapple_demo.gif": "/static/media/bapple_demo.e72fa945d0fb0fcf5719.gif",
+    "static/media/farmly_demo_p2.gif": "/static/media/farmly_demo_p2.db254b1287d862a37e48.gif",
+    "static/media/farmly_demo_p1.gif": "/static/media/farmly_demo_p1.8f8914902e7507068fa1.gif",
+    "static/media/fabflix_basic_demo.gif": "/static/media/fabflix_basic_demo.0f348e5ba0902fa782dc.gif",
+    "static/media/rcc_logo.png": "/static/media/rcc_logo.9a36653fd0d9bccf10ec.png",
+    "static/media/thecoderschool.jpg": "/static/media/thecoderschool.da39bfc4944536ea3544.jpg",
+    "static/media/fabflix_system_architecture.png": "/static/media/fabflix_system_architecture.202abb23edb0ce7471ae.png",
+    "static/media/discord_bot.gif": "/static/media/discord_bot.2459f496825a682cceca.gif",
+    "static/media/farmly_system_architecture.png": "/static/media/farmly_system_architecture.d22cfe8cf780e740f5fa.png",
+    "static/media/bapple_system_architecture.png": "/static/media/bapple_system_architecture.037e83dd64085c915770.png",
+    "static/media/uci.jpg": "/static/media/uci.5c99677be42e902bef61.jpg",
+    "static/media/dsg_logo.jpg": "/static/media/dsg_logo.d34f51929f320628f8b3.jpg",
+    "static/media/rcc_sheets.gif": "/static/media/rcc_sheets.aa93771ffeec2ac3eb30.gif",
+    "static/media/loopnet.png": "/static/media/loopnet.7cee7e10c2ab23c9838f.png",
+    "index.html": "/index.html",
+    "main.7c82fa44.css.map": "/static/css/main.7c82fa44.css.map",
+    "main.66696389.js.map": "/static/js/main.66696389.js.map",
+    "592.73b77d2f.chunk.js.map": "/static/js/592.73b77d2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c82fa44.css",
+    "static/js/main.66696389.js"
+  ]
+}
