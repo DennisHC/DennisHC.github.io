@@ -17,6 +17,5 @@ export const Home = (props) => {
         <ProjectSection />
         <HomeExperienceSection />
         <CourseWorkSection />
-        <ContactMeSection />
     </div>
 };

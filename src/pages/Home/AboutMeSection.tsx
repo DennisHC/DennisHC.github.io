@@ -1,6 +1,9 @@
 import 'react-dom';
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
 import { SkillTag } from '../../components/SkillTag/SkillTag.tsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export const AboutMeSection = (props) => {
     return <div className="container-about-me-section" data-aos="fade-down">
@@ -27,16 +30,28 @@ export const AboutMeSection = (props) => {
             <SkillTag skillName="Node.js" />
             <SkillTag skillName="Express.js" />
         </div>
-        <h3>Link to Google Drive Resume</h3>
+        <h3 className="title-link-to-resume">Link to Google Drive Resume</h3>
         <div className="section-resume">
             <button className="btn-resume">
-            <a 
-                href="https://drive.google.com/file/d/1O3dFRXze9ps0njZ24rnT6kSyv1_e4hFh/view?usp=sharing"
-                target="_blank" 
-                rel="noopener noreferrer">
-                Resume
-            </a>   
-        </button>
+                <a 
+                    href="https://drive.google.com/file/d/1O3dFRXze9ps0njZ24rnT6kSyv1_e4hFh/view?usp=sharing"
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    Resume
+                </a>   
+            </button>
+        </div>
+        <h3 className="title-link-contact">Contact Me</h3>
+        <div className="section-links">
+            <a href="mailto:dhchuong@uci.edu" target="_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon className={"fa-icon"} icon={faEnvelope} />
+            </a>
+            <a href="https://github.com/DennisHC" target="_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon className={"fa-icon"} icon={faGithub} />
+            </a>
+            <a href="https://linkedin.com/in/dennischuong" target="_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon className={"fa-icon"} icon={faLinkedin} />
+            </a>
         </div>
     </div>
 }
