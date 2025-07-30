@@ -6,8 +6,11 @@
     text-align: center;
 }
 
-li {
-    text-align: left;
+ul {
+    list-style-position: inside;
+    li {
+        text-align: left;
+    }
 }
 
 .fa-icon {

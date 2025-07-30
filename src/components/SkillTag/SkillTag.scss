@@ -3,11 +3,11 @@
     margin: 5px;
 
     .text-skill-name {
-        background-color: #000;
+        background: linear-gradient(to right, red 0%, black 30%, #000080 50%, blue 100%);
         color: #fff;
         border-radius: 4px;
         padding: 5px;
-        
+
         // Font Settings
         font-family: "Bitcount Prop Single", system-ui;
         font-optical-sizing: auto;

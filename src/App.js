@@ -7,7 +7,7 @@ import { Home } from './pages/Home/Home.tsx';
 import { Fabflix } from './pages/Fabflix.tsx';
 import { Bapple } from './pages/Bapple.tsx';
 import { Farmly } from './pages/Farmly.tsx';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop.tsx';
+import { ScrollToTop } from './components/ScrollToTop/ScrollToTop.tsx';
 
 function App() {
   useEffect(() => {
