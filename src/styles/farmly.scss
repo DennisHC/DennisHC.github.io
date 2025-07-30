@@ -1,0 +1,30 @@
+.farmly-gif {
+    max-width: 25%;
+    height: auto;
+}
+
+.container-demo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-contact-info-outer {
+    justify-content: space-evenly;
+    @media screen and (max-width: 600px) {
+        margin: auto;
+    }
+    @media screen and (min-width: 601px) {
+        display: flex;
+        flex-direction: col;
+    }
+
+    .container-contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        @media screen and (max-width: 600px) {
+            margin-bottom: 10px;
+        }
+    }
+}

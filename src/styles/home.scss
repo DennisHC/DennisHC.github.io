@@ -1,0 +1,73 @@
+.btn-resume {
+    cursor: pointer;
+    background-color: #343a40;
+    border-color: #343a40;
+    text-align: center;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.btn-resume a {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.container-course-work {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: left;
+    }
+}
+
+
+.img-uci {
+    display: block;
+    box-shadow: 5px 5px 8px;
+    border-radius: 10px;
+    max-width: 840px;
+    height: auto;
+
+    @media screen and (max-width: 600px) {
+        max-width: 325px;
+        margin: auto;
+    }
+
+}
+
+.course-work-half {
+    margin: 30px;
+    
+    .course-work-item {
+        padding-bottom: 20px;
+        .course-work-item-title {
+                text-align: left;
+        }
+    }
+}
+
+.section-skills {
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.section-bio {
+    margin: auto;
+    max-width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-about-me-section {
+    margin-bottom: 10px;
+}

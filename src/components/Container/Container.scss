@@ -1,0 +1,29 @@
+.container-detail-page {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+
+    @media screen and (max-width: 600px) {
+        p {
+            margin: 0 20px;
+        }
+    }
+
+    p {
+        text-align: left;
+        text-indent: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    ul, strong {
+        text-align: left;
+    }
+
+    ul {
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,52 @@
+.container-experience {
+    display: flex;
+    padding: 20px;
+
+    @media (min-width: 1601px) {
+        margin: auto;
+        width: 70%;
+        flex-direction: row-reverse;
+
+        .flex-item {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 1600px) {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .img-experience {
+        @media (max-width: 1600px) {
+            height: auto;
+            width: 90%;
+            margin: auto;
+            max-width: 325px;
+        }
+    }
+
+    .experience-title {
+        font-size: 1.75rem;
+        margin: 5px 0;
+        a {
+            text-decoration: none;
+        }
+    }
+    
+    .experience-job-title {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .experience-years-worked-title {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .experience-description {
+        margin: 0 20px;
+        text-align: left;
+    }
+}
