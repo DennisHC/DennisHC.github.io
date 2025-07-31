@@ -13,7 +13,7 @@ import rccGsheetsParserDemo from '../../assets/gif/rcc_sheets.gif';
 import rccDiscordBotDemo from '../../assets/gif/discord_bot.gif';
 
 export const ProjectSection = (props) => {
-    return <div>
+    return <div className="container-project-section">
         <SectionTitle title={"Projects"}></SectionTitle>
         <Project
             srcUrl={fabflixDemo}

@@ -5,13 +5,13 @@
     text-align: center;
     padding: .375rem .75rem;
     border-radius: .25rem;
-}
 
-.btn-resume a {
-    font-size: 1rem;
-    color: #fff;
-    font-weight: 400;
-    text-decoration: none;
+    a {
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 400;
+        text-decoration: none;
+    }
 }
 
 .container-course-work {
@@ -29,7 +29,6 @@
     }
 }
 
-
 .img-uci {
     display: block;
     box-shadow: 5px 5px 8px;
@@ -41,7 +40,6 @@
         max-width: 325px;
         margin: auto;
     }
-
 }
 
 .course-work-half {
@@ -49,8 +47,9 @@
     
     .course-work-item {
         padding-bottom: 20px;
+
         .course-work-item-title {
-                text-align: left;
+            text-align: left;
         }
     }
 }
@@ -89,4 +88,8 @@
 
 .container-contact-me-section {
     margin-bottom: 30px;
+}
+
+.container-project-section {
+    overflow-x: hidden;
 }
