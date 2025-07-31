@@ -1,21 +1,24 @@
-import 'react-dom';
+// Styling
 import '../styles/global.scss';
 import '../styles/farmly.scss';
 
+// Components
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
 import { BackButton } from '../components/BackButton/BackButton.tsx';
 
+// GIFs
 import FarmlyGif1 from '../assets/gif/farmly_demo_p1.gif';
 import FarmlyGif2 from '../assets/gif/farmly_demo_p2.gif';
 import FarmlyGifLogIn from '../assets/gif/farmly_log_in.gif';
 import FarmlyGifLogOut from '../assets/gif/farmly_log_out.gif';
 import FarmlyGifCheckout from '../assets/gif/farmly_checkout.gif';
 
+// IMGs
 import FarmlySystemArchitecture from '../assets/img/farmly_system_architecture.png';
 
 
-export const Farmly = (props) => {
+export const Farmly = () => {
     return <div>
         <BackButton/>
         <ProjectDetailPageTitle title={"UCI Senior Capstone Project – Farmly"} />

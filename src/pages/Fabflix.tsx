@@ -1,17 +1,18 @@
-import 'react-dom';
+// Styling
+import 'aos/dist/aos.css';
 import '../styles/fabflix.scss';
 
-import 'aos/dist/aos.css';
-
+// Components
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
 import { BackButton } from '../components/BackButton/BackButton.tsx';
 
+// GIfs and IMGs
 import FabflixDemoGif from '../assets/gif/fabflix_basic_demo.gif';
 import FabflixMobileDemoGif from '../assets/gif/fabflix_mobile_demo_1.gif';
 import FabflixSystemArchitecture from '../assets/img/fabflix_system_architecture.png';
 
-export const Fabflix = (props) => {
+export const Fabflix = () => {
     return <div>
         <BackButton/>
         <ProjectDetailPageTitle title={"CS 122B Project — Fabflix"} />

@@ -1,4 +1,3 @@
-import 'react-dom';
 import './Experience.scss';
 
 export const Experience = (props) => {

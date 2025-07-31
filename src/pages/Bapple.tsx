@@ -1,13 +1,13 @@
-import 'react-dom';
-
+// Components
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
 import { BackButton } from '../components/BackButton/BackButton.tsx';
 
+// GIFs and IMGs
 import BappleDemo from '../assets/gif/bapple_demo.gif';
 import BappleSystemArchitecture from '../assets/img/bapple_system_architecture.png';
 
-export const Bapple = (props) => {
+export const Bapple = () => {
     return <div>
         <BackButton/>
         <ProjectDetailPageTitle title={"CS 121 — Bapple"}/>

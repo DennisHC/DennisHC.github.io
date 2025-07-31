@@ -1,4 +1,3 @@
-import 'react-dom';
 import './SkillTag.scss';
 
 export const SkillTag = (props) => {

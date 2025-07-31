@@ -1,4 +1,4 @@
-import 'react-dom';
+// This section is currently unused
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
 
 export const ResumeSection = (props) => {

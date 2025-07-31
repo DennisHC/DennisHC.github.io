@@ -1,11 +1,13 @@
-import 'react-dom';
+// Components
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
 import { SkillTag } from '../../components/SkillTag/SkillTag.tsx';
+
+// Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-export const AboutMeSection = (props) => {
+export const AboutMeSection = () => {
     return <div className="container-about-me-section" data-aos="fade-down">
         <SectionTitle title={"About Me"} />
         <div className="section-bio">

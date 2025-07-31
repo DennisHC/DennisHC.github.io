@@ -1,11 +1,12 @@
-import React from 'react';
-import 'react-dom';
-import Experience from '../../components/Experience/Experience.tsx';
+// Images
 import aboutMeBackground from '../../assets/img/loopnet.png';
 import dsgLogo from "../../assets/img/dsg_logo.jpg";
 import rccLogo from '../../assets/img/rcc_logo.png';
 import theCoderSchoolLogo from '../../assets/img/thecoderschool.jpg';
+
+// Components
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
+import { Experience } from '../../components/Experience/Experience.tsx';
 
 export const HomeExperienceSection = (props) => {
     return <div>

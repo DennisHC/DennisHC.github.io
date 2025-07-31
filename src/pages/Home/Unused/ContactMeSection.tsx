@@ -1,4 +1,4 @@
-import 'react-dom';
+// This section is currently unused
 import '../../styles/home.scss';
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
 

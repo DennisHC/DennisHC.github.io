@@ -1,5 +1,6 @@
 import 'react-dom';
 import './Project.scss';
+
 import SmartLink from '../SmartLink/SmartLink.tsx';
 
 export const Project = (props) => { 

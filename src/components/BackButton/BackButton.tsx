@@ -1,7 +1,6 @@
-import 'react-dom';
 import { Link } from 'react-router-dom';
 
-export const BackButton = (props) => {
+export const BackButton = () => {
     return <Link to="/">
         &laquo; Back
     </Link>
