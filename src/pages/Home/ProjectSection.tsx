@@ -20,48 +20,56 @@ export const ProjectSection = (props) => {
             imgAltText={"Fabflix Demo GIF"}
             title={"Fabflix"}
             titleRedirectUrl={"fabflix"}
+            skillNames={["HTML", "CSS", "JavaScript", "jQuery", "MySQL", "AWS", "Tomcat", "Maven", "Java", "Google Cloud", "Apache", "Android"]}
             description={"Constructed a movie-focused web application that displays relevant information on movies and stars of movies. Developed the front-end using HTML and CSS. Handled the logic of the back-end using JavaScript and jQuery. Interacted with the movies database using JDBC and MySQL, while utilizing stored procedures. Hosted the website on AWS while using principles such as connection pooling and load balancing. Implemented an autocomplete search feature when searching for movies. Incorporated usage of session data and cookies."}/>
         <Project
             srcUrl={stockpotDemo}
             imgAltText={"Stockpot Demo GIF"}
             title={"Stockpot"}
             titleRedirectUrl={"https://github.com/Codepath-Group-5/Stockpot"}
-            description={"Constructed a movie-focused web application that displays relevant information on movies and stars of movies. Developed the front-end using HTML and CSS. Handled the logic of the back-end using JavaScript and jQuery. Interacted with the movies database using JDBC and MySQL, while utilizing stored procedures. Hosted the website on AWS while using principles such as connection pooling and load balancing. Implemented an autocomplete search feature when searching for movies. Incorporated usage of session data and cookies.Launched an educational stock trading Android application that gives in-depth analysis of stocks and allows users to interact with the platform by creating posts of predictions and analysis. Collaborated within a 3-person team environment using the Agile Framework, Scrum to quickly deliver a minimum viable product (MVP) utilizing Sprints and GitHub's project management board. Developed the application implementing features such as an indeterminate progress bar when loading data from an external REST API, utilizing Recycler Views and List Views to display data, interaction with the Parse database, and a feature to pull down to request new posts."}/>
+            skillNames={["Android"]}
+            description={"Launched an educational stock trading Android application that gives in-depth analysis of stocks and allows users to interact with the platform by creating posts of predictions and analysis. Collaborated within a 3-person team environment using the Agile Framework, Scrum to quickly deliver a minimum viable product (MVP) utilizing Sprints and GitHub's project management board. Developed the application implementing features such as an indeterminate progress bar when loading data from an external REST API, utilizing Recycler Views and List Views to display data, interaction with the Parse database, and a feature to pull down to request new posts."}/>
         <Project
             srcUrl={farmlyDemo}
             imgAltText={"Farmly Demo GIF"}
             title={"Farmly"}
             titleRedirectUrl={"farmly"}
+            skillNames={["HTML", "CSS", "JavaScript", "TypeScript", "SASS", "Ionic", "Firebase", "Stripe", "Google Cloud"]}
             description={"Facilitated senior capstone project consisting of a 4-person team using Scrum (Agile Framework). Organized daily weekday meetings with project sponsors and operated as a liaison. Implemented front-end using the Ionic framework, incorporating elements from HTML, CSS, TypeScript, and SASS. Assembled the back-end logic using Angular using concepts such as components, pages, and routing. Developed a system for analytics through Google Cloud Platform microservices such as Google Cloud Functions, Google Cloud Scheduler, and Google Cloud Pub/Sub. Integrated Firestore/Firebase functionality within the application. Farmly was one of three projects invited to panel at the annual UCI ICS Showcase."}/>
         <Project
             srcUrl={flixsterDemo}
             imgAltText={"CodePath Android Projects Demo GIF"}
             title={"CodePath: Android Projects"}
             titleRedirectUrl={"https://github.com/DennisHC/Flixster"}
+            skillNames={["Android"]}
             description={"Participated in off-campus 10-week CodePath course to learn Android development. Incorporated fundamental concepts such as implementing RecyclerViews, layouts through XML files, inflating views and binding data respectively, and etc. Projects in-progress or to be completed include Flixster, SimpleTweet, and SimpleInstagram. The project currently presented is Flixster, an application used to display the top current movies with detailed Information including ratings, movie descriptions, and movie trailers. APIs utilized included Movie DB API and YouTube API."}/>
         <Project
             srcUrl={bappleDemo}
             imgAltText={"Bapple Demo Gif"}
             title={"Bapple"}
             titleRedirectUrl={"bapple"}
+            skillNames={["HTML", "CSS", "JavaScript", "Flask"]}
             description={"Collaborated in a 4-person team to create a web-based search engine from the ground up that is capable of handling tens of thousands of documents or Web pages, under harsh operational constraints and having a query response time under 300ms. Constructed front-end of web-based search engine using HTML, CSS, and JavaScript. Utilized Flask to handle back-end logic such as passing relevant information based on the user query. Implemented core search engine fundamentals such as tokenizing, stopping, and relevance score."}/>
          <Project
             srcUrl={zotcalzDemo}
             imgAltText={"ZotCalZ Demo Gif"}
             title={"ZotCalZ"}
             titleRedirectUrl={"https://github.com/DennisHC/ZotCalZ"}
+            skillNames={["HTML", "CSS", "JavaScript", "Flask", "MySQL", "AWS EC2", "AWS RDS", "Chart.js"]}
             description={"Developed a health and wellness program which logs the users caloric and macronutrient consumption for the current day using an Arduino and a corresponding HX711 load cell, which outputs remaining caloric and macronutrient goals for the day. This project utilizes Flask, HTML, CSS, JavaScript, MySQL, AWS EC2, AWS RDS, and Chart.js to accomplish this task."}/>
         <Project
             srcUrl={rccGsheetsParserDemo}
             imgAltText={"American Red Cross Club General Member Google Sheets Parser Gif"}
             title={"American Red Cross Club: General Member Google Sheets Parser"}
             titleRedirectUrl={"https://github.com/DennisHC/RCC_GoogleSheetsParser"}
+            skillNames={["Python", "gspread API", "Tkinter GUI"]}
             description={"Constructed a desktop application that automates a time-consuming task. This program reduces the amount of time of inputting general member points from 30-40 minutes to 1-4 minutes per use. This project was created using Python, gspread API, and Tkinter GUI. The code is expected to be refactored and the GUI to be recreated in PyQt in a future iteration."}/>
         <Project
             srcUrl={rccDiscordBotDemo}
             imgAltText={"American Red Cross Club Discord Bot Demo Gif"}
             title={"American Red Cross Club: Discord Bot"}
             titleRedirectUrl={""}
+            skillNames={["Python"]}
             description={"Developed a Discord Bot for the American Red Cross Club at UCI. The Discord Bot provides quick access to links of interest and provides helpful information for members of the UCI community to get connected with the club. This program was implemented using Discord.py and deployed via Heroku."}/>
     </div>
 }

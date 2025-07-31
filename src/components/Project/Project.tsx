@@ -1,7 +1,8 @@
 import 'react-dom';
 import './Project.scss';
 
-import SmartLink from '../SmartLink/SmartLink.tsx';
+import { SmartLink } from '../SmartLink/SmartLink.tsx';
+import { SkillTag } from '../SkillTag/SkillTag.tsx';
 
 export const Project = (props) => { 
     return <div className="container margin-between-sections">
@@ -14,9 +15,16 @@ export const Project = (props) => {
                     { props.title }
                 </SmartLink>
             </h3>
-            <h6 className="project-years-title">
-                { props.years }
-            </h6>
+
+            <h4>Technologies Used</h4>
+            { props.skillNames ? 
+                props.skillNames.map((name) => (
+                    <SkillTag skillName={name}></SkillTag>
+                )) :
+                null
+            }
+
+            <h4>Description</h4>
             <p className="project-description">
                 { props.description }
             </p>
