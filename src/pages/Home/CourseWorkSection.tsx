@@ -4,7 +4,7 @@ import UciImg from '../../assets/img/uci.jpg';
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
 
 export const CourseWorkSection = (props) => {
-    return <>
+    return <div data-aos="fade-up">
     <SectionTitle title={"Relevant Coursework"}/>
      <div className="container-course-work">
         <img src={UciImg} alt="UCI img" className="course-work-half img-uci"></img>
@@ -59,5 +59,5 @@ export const CourseWorkSection = (props) => {
             </div>
         </div>
     </div>
-    </>
+    </div>
 }
