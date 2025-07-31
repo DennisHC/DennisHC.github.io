@@ -3,11 +3,11 @@ import './Experience.scss';
 
 export const Experience = (props) => {
     return <div className="container-experience">
-        <div className="flex-item">
+        <div className="flex-item" data-aos="fade-up">
             <img src={ props.srcUrl } alt={ props.imgAltText } className="img-experience flex-item"></img>
         </div>
 
-        <div className="flex-item">
+        <div className="flex-item" data-aos="fade-right">
             <h3 className="experience-title">
                 <a href={ props.titleRedirectUrl } target="_blank" rel="noopener noreferrer">
                     { props.title }

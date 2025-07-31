@@ -8,7 +8,7 @@ import theCoderSchoolLogo from '../../assets/img/thecoderschool.jpg';
 import { SectionTitle } from '../../components/SectionTitle/SectionTitle.tsx';
 
 export const HomeExperienceSection = (props) => {
-    return <div data-aos="fade-up">
+    return <div>
         <SectionTitle title={"Work Experience"}></SectionTitle>
         <Experience
             srcUrl={aboutMeBackground}

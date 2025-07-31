@@ -4,6 +4,7 @@ import '../styles/farmly.scss';
 
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
+import { BackButton } from '../components/BackButton/BackButton.tsx';
 
 import FarmlyGif1 from '../assets/gif/farmly_demo_p1.gif';
 import FarmlyGif2 from '../assets/gif/farmly_demo_p2.gif';
@@ -12,7 +13,6 @@ import FarmlyGifLogOut from '../assets/gif/farmly_log_out.gif';
 import FarmlyGifCheckout from '../assets/gif/farmly_checkout.gif';
 
 import FarmlySystemArchitecture from '../assets/img/farmly_system_architecture.png';
-import { BackButton } from '../components/BackButton/BackButton.tsx';
 
 
 export const Farmly = (props) => {

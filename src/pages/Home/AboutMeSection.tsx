@@ -10,7 +10,7 @@ export const AboutMeSection = (props) => {
         <SectionTitle title={"About Me"} />
         <div className="section-bio">
             <p>
-                Hello! My name is Dennis, and I’m a Fullstack Software Developer with over 3 years of experience. I specialize in Python, React, JavaScript, CSS, SASS, Git, and SQL. My background spans professional work, internships, and academic projects, giving me a well-rounded and adaptable skill set. My most recent experience as a Software Engineer at CoStar Group allowed me to work on React, Angular, SASS, HTML, CSS, JavaScript, ASP.NET, and Git in a production setting. I’m currently seeking new opportunities and excited to contribute to a forward-thinking team.
+                Hello! My name is Dennis, and I’m a Fullstack Software Developer with over 3 years of experience. My background spans professional work, internships, and academic projects, giving me a well-rounded and adaptable skill set. My most recent experience as a Software Engineer at CoStar Group allowed me to work on React, Angular, SASS, HTML, CSS, JavaScript, ASP.NET, Azure, and Git in a production setting. I’m currently seeking new opportunities and excited to contribute to a forward-thinking team.
             </p>
         </div>
         <div className="section-skills">
