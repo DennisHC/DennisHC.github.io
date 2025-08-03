@@ -16,7 +16,7 @@ export const Project = (props) => {
                 </SmartLink>
             </h3>
 
-            <h4>Technologies Used</h4>
+            <h4 className="title-technologies-used">Technologies Used</h4>
             { props.skillNames ? 
                 props.skillNames.map((name) => (
                     <SkillTag skillName={name}></SkillTag>
@@ -24,7 +24,7 @@ export const Project = (props) => {
                 null
             }
 
-            <h4>Description</h4>
+            <h4 className="title-project-description">Description</h4>
             <p className="project-description">
                 { props.description }
             </p>

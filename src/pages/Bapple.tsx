@@ -23,33 +23,36 @@ export const Bapple = () => {
             <img src={BappleSystemArchitecture} alt="Bapple System Architecture Graphic" />
         </Container>
         <Container title="Work Distribution">
-            <strong>Dennis Chuong</strong>
-            <ul>
-                <li>Implemented an interactive, web-based user interface using HTML, CSS, Bootstrap, and JavaScript</li>
-                <li>Utilized Flask to handle search engine logic and pass top-ranking search queries to the front-end by context objects</li>
-                <li>Designed algorithm to merge partial indexes that resulted from the inverted index being separated into three separate documents</li>
-            </ul>
+            <div className="container-work-distribution">
+                <strong>Dennis Chuong</strong>
+                <ul>
+                    <li>Implemented an interactive, web-based user interface using HTML, CSS, Bootstrap, and JavaScript</li>
+                    <li>Utilized Flask to handle search engine logic and pass top-ranking search queries to the front-end by context objects</li>
+                    <li>Designed algorithm to merge partial indexes that resulted from the inverted index being separated into three separate documents</li>
+                </ul>
 
-            <strong>Dennis Hernandez</strong>
-            <ul>
-                <li>Traversed folder/files to gather the webpage files for later opening and processing</li>
-                <li>Computed tf-idf scores for each term in the corpus to use in the ranking implementation</li>
-                <li>Implemented simhash for similarity and duplicate checking of web pages</li>
-                <li>Store number of times a certain term appears in important tags to weigh the website in the ranking algorithm</li>
-            </ul>
+                <strong>Dennis Hernandez</strong>
+                <ul>
+                    <li>Traversed folder/files to gather the webpage files for later opening and processing</li>
+                    <li>Computed tf-idf scores for each term in the corpus to use in the ranking implementation</li>
+                    <li>Implemented simhash for similarity and duplicate checking of web pages</li>
+                    <li>Store number of times a certain term appears in important tags to weigh the website in the ranking algorithm</li>
+                </ul>
 
-            <strong>John Cuviello</strong>
-            <ul>
-                <li>Implemented conjunctive processing for query terms, with rankings based on tf-idf score and weight of important html tags</li>
-                <li>Created intersection algorithm for document ids to find overlapping documents for a given token</li>
-            </ul>
+                <strong>John Cuviello</strong>
+                <ul>
+                    <li>Implemented conjunctive processing for query terms, with rankings based on tf-idf score and weight of important html tags</li>
+                    <li>Created intersection algorithm for document ids to find overlapping documents for a given token</li>
+                </ul>
 
-            <strong>Melinda Li</strong>
-            <ul>
-                <li>Stored inverted index into three separate documents to preserve local memory space</li>
-                <li>Created a dictionary to track the byte location of each term in the inverted index file</li>
-                <li>Implemented bigram storage and usage to quickly retrieve results for two word queries</li>
-            </ul>
+                <strong>Melinda Li</strong>
+                <ul>
+                    <li>Stored inverted index into three separate documents to preserve local memory space</li>
+                    <li>Created a dictionary to track the byte location of each term in the inverted index file</li>
+                    <li>Implemented bigram storage and usage to quickly retrieve results for two word queries</li>
+                </ul>
+            </div>
+            
         </Container>
         <Container title={"Challenges and Roadblocks"}>
             <p>A major challenge in this project was figuring out what specifically to code, since the requirements were designed to be vague and up for interpretation in this course. We knew the general idea behind the project, but when getting into the details, we were not too sure about how to modularize or split up the functionality. Interfacing with code was dependent on how it ended up being implemented. Since we didn’t know how things would be implemented in the beginning, we were stuck at times waiting for other parts to be finished.</p>

@@ -28,6 +28,10 @@
         border-radius: 10px;
         box-shadow: 5px 5px 8px;
         overflow-x: hidden;
+
+        @media screen and (max-width: 601px) {
+            height: auto;
+        }
     }
 
     .project-title {
