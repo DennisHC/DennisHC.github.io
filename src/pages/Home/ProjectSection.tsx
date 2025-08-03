@@ -42,7 +42,7 @@ export const ProjectSection = (props) => {
             title={"CodePath: Android Projects"}
             titleRedirectUrl={"https://github.com/DennisHC/Flixster"}
             skillNames={["Android"]}
-            description={"Participated in off-campus 10-week CodePath course to learn Android development. Incorporated fundamental concepts such as implementing RecyclerViews, layouts through XML files, inflating views and binding data respectively, and etc. Projects in-progress or to be completed include Flixster, SimpleTweet, and SimpleInstagram. The project currently presented is Flixster, an application used to display the top current movies with detailed Information including ratings, movie descriptions, and movie trailers. APIs utilized included Movie DB API and YouTube API."}/>
+            description={"Participated in off-campus 10-week CodePath course to learn Android development. Incorporated fundamental concepts such as implementing RecyclerViews, layouts through XML files, inflating views and binding data respectively, and etc. Projects included Flixster, SimpleTweet, and SimpleInstagram. The project currently presented is Flixster, an application used to display the top current movies with detailed Information including ratings, movie descriptions, and movie trailers. APIs utilized included Movie DB API and YouTube API."}/>
         <Project
             srcUrl={bappleDemo}
             imgAltText={"Bapple Demo Gif"}

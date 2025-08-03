@@ -36,7 +36,7 @@ export const HomeExperienceSection = (props) => {
             title={"American Red Cross Club at UCI"}
             jobTitle={"Webmaster"}
             yearsWorked={"June 2020 - June 2021"}
-            description={"As the Webmaster of the American Red Cross Club, I maintained the website of the site and participated in administrative decision-making for the club. I have created two applications during my time as Webmaster to increase quality of life and incorporate more efficiency within the club. My proudest accomplishment as the Webmaster of the club was being able to create a desktop application that significantly reduces time spent on inputting general member points for the club."}>
+            description={"As the Webmaster of the American Red Cross Club, I maintained the website of the club and participated in administrative decision-making for the club. I have created two applications during my time as Webmaster to increase quality of life and incorporate more efficiency within the club. My proudest accomplishment as the Webmaster of the club was being able to create a desktop application that significantly reduces time spent on inputting general member points for the club."}>
         </Experience>
         <Experience
             srcUrl={theCoderSchoolLogo}
@@ -45,7 +45,7 @@ export const HomeExperienceSection = (props) => {
             title={"theCoderSchool"}
             jobTitle={"Coding Instructor"}
             yearsWorked={"September 2020 - June 2021"}
-            description={"As a Coding Coach at theCoderSchool, I mentored students ages 8-18 in programming languages such as Python, HTML, CSS, and JavaScript. I also introduced students who have never programmed before to block-based languages such as Scratch. At the end of each lesson, I prepared a summary of the tasks completed and core concepts learned during the day to update the parents on the constant, measurable growth the student is attaining."}>
+            description={"As a Coding Coach at theCoderSchool, I mentored students ages 8-18 in programming languages such as Python, HTML, CSS, and JavaScript. I also introduced students who have never programmed before to block-based languages such as Scratch. At the end of each lesson, I prepared a summary of the tasks completed and core concepts learned during the day to update the parents on the constant, measurable growth the student was attaining."}>
         </Experience>
     </div>;
 }
