@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.52ca7292.css",
-    "main.js": "/static/js/main.3f8bf08e.js",
+    "main.css": "/static/css/main.aafcb0bf.css",
+    "main.js": "/static/js/main.87a5182f.js",
     "static/js/592.73b77d2f.chunk.js": "/static/js/592.73b77d2f.chunk.js",
     "static/media/farmly_log_out.gif": "/static/media/farmly_log_out.dfec55ccba3463ab07c8.gif",
     "static/media/farmly_checkout.gif": "/static/media/farmly_checkout.0cb7aa79225e2134eeb1.gif",
@@ -26,12 +26,12 @@
     "static/media/rcc_sheets.gif": "/static/media/rcc_sheets.aa93771ffeec2ac3eb30.gif",
     "static/media/loopnet.png": "/static/media/loopnet.7cee7e10c2ab23c9838f.png",
     "index.html": "/index.html",
-    "main.52ca7292.css.map": "/static/css/main.52ca7292.css.map",
-    "main.3f8bf08e.js.map": "/static/js/main.3f8bf08e.js.map",
+    "main.aafcb0bf.css.map": "/static/css/main.aafcb0bf.css.map",
+    "main.87a5182f.js.map": "/static/js/main.87a5182f.js.map",
     "592.73b77d2f.chunk.js.map": "/static/js/592.73b77d2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ca7292.css",
-    "static/js/main.3f8bf08e.js"
+    "static/css/main.aafcb0bf.css",
+    "static/js/main.87a5182f.js"
   ]
 }
