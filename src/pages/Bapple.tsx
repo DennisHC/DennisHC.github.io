@@ -2,11 +2,11 @@
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
 import { BackButton } from '../components/BackButton/BackButton.tsx';
+import { WorkDistribution } from '../components/WorkDistribution/WorkDistribution.tsx';
 
 // GIFs and IMGs
 import BappleDemo from '../assets/gif/bapple_demo.gif';
 import BappleSystemArchitecture from '../assets/img/bapple_system_architecture.png';
-import { WorkDistribution } from '../components/WorkDistribution/WorkDistribution.tsx';
 
 export const Bapple = () => {
     return <div>

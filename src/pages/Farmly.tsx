@@ -6,6 +6,7 @@ import '../styles/farmly.scss';
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
 import { BackButton } from '../components/BackButton/BackButton.tsx';
+import { WorkDistribution } from '../components/WorkDistribution/WorkDistribution.tsx';
 
 // GIFs
 import FarmlyGif1 from '../assets/gif/farmly_demo_p1.gif';
@@ -16,7 +17,6 @@ import FarmlyGifCheckout from '../assets/gif/farmly_checkout.gif';
 
 // IMGs
 import FarmlySystemArchitecture from '../assets/img/farmly_system_architecture.png';
-import { WorkDistribution } from '../components/WorkDistribution/WorkDistribution.tsx';
 
 
 export const Farmly = () => {
