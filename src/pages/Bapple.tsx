@@ -52,7 +52,6 @@ export const Bapple = () => {
                     <li>Implemented bigram storage and usage to quickly retrieve results for two word queries</li>
                 </ul>
             </div>
-            
         </Container>
         <Container title={"Challenges and Roadblocks"}>
             <p>A major challenge in this project was figuring out what specifically to code, since the requirements were designed to be vague and up for interpretation in this course. We knew the general idea behind the project, but when getting into the details, we were not too sure about how to modularize or split up the functionality. Interfacing with code was dependent on how it ended up being implemented. Since we didn’t know how things would be implemented in the beginning, we were stuck at times waiting for other parts to be finished.</p>
