@@ -16,6 +16,7 @@ import FarmlyGifCheckout from '../assets/gif/farmly_checkout.gif';
 
 // IMGs
 import FarmlySystemArchitecture from '../assets/img/farmly_system_architecture.png';
+import { WorkDistribution } from '../components/WorkDistribution/WorkDistribution.tsx';
 
 
 export const Farmly = () => {
@@ -42,36 +43,41 @@ export const Farmly = () => {
             <img src={FarmlySystemArchitecture} alt="Farmly System Architecture Diagram"/>
         </Container>
         <Container title={"Work Distribution"}>
-            <strong>Dennis Chuong</strong>
-            <ul>
-                <li>Consumer Profile User Interface</li>
-                <li>Create Listing Page</li>
-                <li>Analytics via GCP Microservices</li>
-                <li>Firestore Indexes for Cart (Collection Groups)</li>
-                <li>Currency Regex</li>
-                <li>Login Page User Interface</li>
-            </ul>
-            <strong>Adrian Chu</strong>
-            <ul>
-                <li>Media Upload Backend Service</li>
-                <li>User Authentication Backend Service</li>
-                <li>Home Page Frontend</li>
-                <li>Navigation Bar</li>
-            </ul>
-            <strong>Jingtong Gao</strong>
-            <ul>
-                <li>Consumer Profile Backend Service</li>
-                <li>Cart Page</li>
-                <li>Checkout Page</li>
-                <li>Stripe Integration</li>
-                <li>Search Indexing</li>
-            </ul>
-            <strong>Lily He</strong>
-            <ul>
-                <li>General Frontend Assistance</li>
-                <li>Organization Profile</li>
-                <li>Listing Component</li>
-            </ul>
+            <WorkDistribution 
+                name="Dennis Chuong"
+                tasks={["Consumer Profile User Interface",
+                    "Create Listing Page",
+                    "Analytics via GCP Microservices",
+                    "Firestore Indexes for Cart (Collection Groups)",
+                    "Currency Regex",
+                    "Login Page User Interface"
+                ]}   
+            />
+            <WorkDistribution 
+                name="Adrian Chu"
+                tasks={["Media Upload Backend Service",
+                    "User Authentication Backend Service",
+                    "Home Page Frontend",
+                    "Navigation Bar"
+                ]}
+            />
+            <WorkDistribution 
+                name="Jingtong Gao"
+                tasks={["Consumer Profile Backend Service",
+                    "Cart Page",
+                    "Checkout Page",
+                    "Stripe Integration",
+                    "Search Indexing"
+                ]}
+            />
+            <WorkDistribution 
+                name="Lily He"
+                tasks={["General Frontend Assistance",
+                    "Organization Profile",
+                    "Listing Component"
+                ]}
+            />
+       
         </Container>
         <Container title={"Challenges/Roadblocks"}>
             <p>One of the main challenges that we have faced during the Spring quarter was that the group members’ schedules conflicted. This meant that we could not meet Monday through Friday for our daily stand-up meeting, as we had done in the first quarter. Instead, we had to meet on only Monday, Wednesday, and Friday. To address this issue, we planned for longer meetings and more closer communication with the project sponsor through messaging services. Team members also scheduled individual appointments with our project sponsor as needed.</p>

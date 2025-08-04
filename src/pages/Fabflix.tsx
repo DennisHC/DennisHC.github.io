@@ -6,6 +6,7 @@ import '../styles/fabflix.scss';
 import { ProjectDetailPageTitle } from '../components/ProjectDetailPageTitle/ProjectDetailPageTitle.tsx';
 import { Container } from '../components/Container/Container.tsx';
 import { BackButton } from '../components/BackButton/BackButton.tsx';
+import { WorkDistribution } from '../components/WorkDistribution/WorkDistribution.tsx';
 
 // GIfs and IMGs
 import FabflixDemoGif from '../assets/gif/fabflix_basic_demo.gif';
@@ -29,45 +30,47 @@ export const Fabflix = () => {
             <img src={FabflixSystemArchitecture} alt="fabflix system architecture img"/>
         </Container>
         <Container title={"Work Distribution"}>
-            <strong>Dennis Chuong</strong>
-            <ul>
-                <li>CSS Styling</li>
-                <li>Login Authentication (including encryption of passwords)</li>
-                <li>Login Filtering (users cannot access employee pages)</li>
-                <li>Session and Cookie management</li>
-                <li>Front-end caching</li>
-                <li>reCaptcha</li>
-                <li>Prepared Statements</li>
-                <li>Stored Procedures</li>
-                <li>Full Text Search</li>
-                <li>Autocomplete Search (through jQuery Autocomplete Library)</li>
-                <li>Creating REST APIs for application</li>
-                <li>JSON Object and JSON Array management</li>
-                <li>Dashboard for Employees</li>
-                <li>Payment Processing</li>
-                <li>AWS EC2 Load Balancing</li>
-                <li>AWS EC2 Sticky Sessions</li>
-            </ul>
-            <strong>Michael Lofton</strong>
-            <ul>
-                <li>Individual Movie Page</li>
-                <li>Individual Actor Page</li>
-                <li>Browsing</li>
-                <li>Sorting</li>
-                <li>Pagination</li>
-                <li>Multi-field substring search for movies and actors</li>
-                <li>Creating REST APIs for application</li>
-                <li>JSON Object and JSON Array management</li>
-                <li>Prepared Statements</li>
-                <li>XML Parsing</li>
-                <li>HTTPS for AWS EC2 Instance</li>
-                <li>SQL Scripts for Database Backup and Cleanup Automation</li>
-                <li>Android Application Logic and Styling</li>
-                <li>Narrated Video Demos</li>
-                <li>JMeter Log Processing Script</li>
-                <li>JMeter Time Measurement Report</li>
-                <li>JMeter Generated Logs</li>
-            </ul>
+            <WorkDistribution
+                name="Dennis Chuong"
+                tasks={["CSS Styling", 
+                    "Login Authentication (including encryption of passwords)",
+                    "Login Filtering (users cannot access employee pages)",
+                    "Session and Cookie management",
+                    "Front-end caching",
+                    "reCaptcha",
+                    "Prepared Statements",
+                    "Stored Procedures",
+                    "Full Text Search",
+                    "Autocomplete Search (through jQuery Autocomplete Library)",
+                    "Creating REST APIs for application",
+                    "JSON Object and JSON Array management",
+                    "Dashboard for Employees",
+                    "Payment Processing",
+                    "AWS EC2 Load Balancing",
+                    "AWS EC2 Sticky Sessions"
+                ]}
+            />
+           <WorkDistribution
+                name="Michael Lofton"
+                tasks={["Individual Movie Page",
+                    "Individual Actor Page",
+                    "Browsing",
+                    "Sorting",
+                    "Pagination",
+                    "Multi-field substring search for movies and actors",
+                    "Creating REST APIs for application",
+                    "JSON Object and JSON Array management",
+                    "Prepared Statements",
+                    "XML Parsing",
+                    "HTTPS for AWS EC2 Instance",
+                    "SQL Scripts for Database Backup and Cleanup Automation",
+                    "Android Application Logic and Styling",
+                    "Narrated Video Demos",
+                    "JMeter Log Processing Script",
+                    "JMeter Time Measurement Report",
+                    "JMeter Generated Logs"
+                ]} 
+           />
         </Container>
         <Container title={"Challenges/Roadblocks"}>
             <p>We ran into many challenges that we had to overcome to be successful within this class. One of the notorious roadblocks that we ran into was not having our data from the database display on the website after a search query was submitted when using an AWS instance. The issue was addressed by modifying the database on AWS to accept our queries as intended.</p>
